@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MovieZone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">
+            <h1>MOVIE-ZONE</h1>
+        </div>
+        <div class="search-container">
+            <input type="text" id="search-input" placeholder="Search for a movie...">
+            <button id="search-button">Search</button>
+        </div>
+    </header>
+
+    <main class="wrapper">
+        <div class="category-buttons">
+            <button class="category-btn active" data-category="popular">Popular</button>
+            <button class="category-btn" data-category="now_playing">Now Playing</button>
+            <button class="category-btn" data-category="top_rated">Top Rated</button>
+        </div>
+
+        <section class="category-section" id="movie-container">
+            <div class="movie-grid" id="movies">
+                </div>
+        </section>
+    </main>
+
+    <footer>
+        <h3>Movie-Zone GDG AASTU</h3>
+        <p>&copy; 2025 Movie-Zone.</p>
+    </footer>
+    <script src="config.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
