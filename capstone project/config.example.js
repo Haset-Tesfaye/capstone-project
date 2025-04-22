@@ -1,1 +1,0 @@
-const API_KEY = "YOUR_API_KEY_HERE"; //Use You own TMDB API_ key here
